@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Archivo:ital,wght@0,100..900;1,100..900&family=Boldonse&family=Comfortaa:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Six+Caps&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Vina+Sans&display=swap');
+
+@media (min-width: 600px) and (max-width: 900px) {
+	/* Styles for screens between 600px and 900px */
+}
+
+
+
+
+body {
+    background-color: black;
+    color: rgb(209, 203, 185);
+    display: grid;
+    grid-template-columns: 0.5fr 5fr;
+    height: 100vh;
+    place-items: center;
+}
+
+/* name sideways */
+h1 {
+    font-family: "Vina Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    writing-mode: vertical-rl; /* vertical text from bottom to top */
+    transform: rotate(180deg); /* flip to make it top to bottom */
+    text-align: center;
+}
+
+h2 {
+    font-family: "Vina Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 50px;
+    
+}
+
+P, li {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+ul { list-style-type: "+  "; }
+
+.social-links img {
+    width: 50px;
+    padding: 10px;
+}
+
+/*needed to move the logos down to be in line */
+
+#linkedin {
+    transform: translateY(5px);
+ 
+}
+
+#phone {
+    transform: translateY(5px);
+}
+
