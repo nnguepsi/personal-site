@@ -35,6 +35,22 @@ h2 {
     
 }
 
+.navbar {
+    word-spacing: 360px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(209, 203, 185);
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+
+
 P, li {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -52,7 +68,10 @@ ul { list-style-type: "+  "; }
 
 #linkedin {
     transform: translateY(5px);
- 
+}
+
+#github {
+    transform: translateY(5px);
 }
 
 #phone {
