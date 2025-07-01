@@ -78,3 +78,7 @@ ul { list-style-type: "+  "; }
     transform: translateY(5px);
 }
 
+.project-examples img {
+    width: 200px;
+}
+
